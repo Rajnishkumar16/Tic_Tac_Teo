@@ -47,6 +47,7 @@ const Board = () => {
         </>
       ) : (
         <>
+          <h4>player {isXTurn ? "X" : "O"} Please Move</h4>
           <div className="board-row">
             <Item onClick={() => handleClick(0)} values={state[0]} />
             <Item onClick={() => handleClick(1)} values={state[1]} />
