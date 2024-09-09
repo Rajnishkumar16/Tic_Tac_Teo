@@ -1,0 +1,29 @@
+body {
+  background-color: #c3c5c5;
+}
+
+.board-container {
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board-row {
+  display: flex;
+}
+
+.item-content {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
